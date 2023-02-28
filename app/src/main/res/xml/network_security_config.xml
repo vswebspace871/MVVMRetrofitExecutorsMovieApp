@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config >
+
+<!-- Dont forget to add your network security config file in Manifest -->
+
+    <domain-config cleartextTrafficPermitted="true">
+
+        <domain includeSubdomains="true">api.themoviedb.org</domain>
+
+    </domain-config>
+
+</network-security-config>
